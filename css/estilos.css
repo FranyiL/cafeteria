@@ -1,2 +1,4 @@
-
-
+.imagen {
+    /*background-image: url('../img/fondo.jpg');*/
+    width: 100%;
+}
