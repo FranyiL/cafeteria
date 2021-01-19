@@ -2,3 +2,7 @@
     /*background-image: url('../img/fondo.jpg');*/
     width: 100%;
 }
+
+#inicio {
+    margin-right: 5px;
+}
