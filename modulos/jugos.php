@@ -5,24 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="icon" href="img/icono.png" type="image/png" />
+    <link rel="icon" href="../img/icono.png" type="image/png" />
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/font-awesome/css/font-awesome.min.css">
 
     <!-- Ionicons -->
-    <link rel="stylesheet" href="css/Ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="../css/Ionicons/css/ionicons.min.css">
 
-    <link rel="stylesheet" href="css/estilos.css">
-    <title>Tostadas</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Jugos</title>
 </head>
 
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 
-        <a class="navbar-brand" href="index.html">Bienvenidos A Shairy Cafeteria</a>
+        <a class="navbar-brand" href="inicio.php">Bienvenidos A Shairy Cafeteria</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -31,7 +31,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="btn btn-outline-light" id="inicio" href="index.html"><i class="fa fa-home"></i><span class="sr-only">(current)</span></a>
+                    <a class="btn btn-outline-light" id="inicio" href="inicio.php"><i class="fa fa-home"></i><span class="sr-only">(current)</span></a>
                 </li>
 
                 <li class="nav-item active">
@@ -43,8 +43,8 @@
                 Menu Del Día
               </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="jugos.html">Jugos</a>
-                        <a class="dropdown-item" href="tostadas.html">Tostadas</a>
+                        <a class="dropdown-item" href="jugos.php">Jugos</a>
+                        <a class="dropdown-item" href="tostadas.php">Tostadas</a>
                         <a class="dropdown-item" href="#">Pastelitos</a>
                         <a class="dropdown-item" href="#">Quipes</a>
                         <div class="dropdown-divider"></div>
@@ -65,26 +65,17 @@
 
             <div class="col">
                 <div class="card" id="card" style="width: 18rem;">
-                    <img src="img/tostada-jamon-y-queso.jpg" class="card-img-top" alt="...">
+                    <img src="../img/jugo-de-piña.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 style="text-align: center; font-weight: bold;" class="card-title">Tostada De Jamon y Queso</h5>
-
+                        <h5 style="text-align: center; font-weight: bold;" class="card-title">Jugo De Piña</h5>
+                        <p style="text-align: center;" class="card-text">Jugo natural de piña, hecho con piñas frescas y producidas en nuestros campos.</p>
                     </div>
-
-                    <div class="card-body">
-                        <a href="#" class="btn btn-outline-primary">Agregar a pedido</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card" id="card" style="width: 18rem;">
-                    <img src="img/tostada-de-pollo.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 style="text-align: center; font-weight: bold;" class="card-title">Tostada de Pollo</h5>
-
-                    </div>
-
+                    <ul class="list-group list-group-flush">
+                        <li style="text-align: center; font-weight: bold;" class="list-group-item">Ingredientes:</li>
+                        <li style="text-align: center;" class="list-group-item">Piña natural</li>
+                        <li style="text-align: center;" class="list-group-item">Azucar blanca</li>
+                        <li style="text-align: center;" class="list-group-item">Agua purificada</li>
+                    </ul>
                     <div class="card-body">
                         <a href="#" class="btn btn-outline-primary">Agregar a pedido</a>
                     </div>
@@ -93,12 +84,36 @@
 
             <div class="col">
                 <div class="card" id="card" style="width: 18rem;">
-                    <img src="img/tostada-de-res.jpg" class="card-img-top" alt="...">
+                    <img src="../img/jugo-de-naranja.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 style="text-align: center; font-weight: bold;" class="card-title">Tostada De Res</h5>
-
+                        <h5 style="text-align: center; font-weight: bold;" class="card-title">Jugo De Naranja</h5>
+                        <p style="text-align: center;" class="card-text">Jugo natural de naranja, hecho con naranjas frescas y producidas en nuestros campos.</p>
                     </div>
+                    <ul class="list-group list-group-flush">
+                        <li style="text-align: center; font-weight: bold;" class="list-group-item">Ingredientes:</li>
+                        <li style="text-align: center;" class="list-group-item">Naranja natural</li>
+                        <li style="text-align: center;" class="list-group-item">Azucar blanca</li>
+                        <li style="text-align: center;" class="list-group-item">Agua purificada</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="btn btn-outline-primary">Agregar a pedido</a>
+                    </div>
+                </div>
+            </div>
 
+            <div class="col">
+                <div class="card" id="card" style="width: 18rem;">
+                    <img src="../img/jugo-de-tamarindo.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 style="text-align: center; font-weight: bold;" class="card-title">Jugo De Tamarindo</h5>
+                        <p style="text-align: center;" class="card-text">Jugo natural de tamarindo, hecho con tamarindos frescos y producidos en nuestros campos.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li style="text-align: center; font-weight: bold;" class="list-group-item">Ingredientes:</li>
+                        <li style="text-align: center;" class="list-group-item">Tamarindo natural</li>
+                        <li style="text-align: center;" class="list-group-item">Azucar blanca</li>
+                        <li style="text-align: center;" class="list-group-item">Agua purificada</li>
+                    </ul>
                     <div class="card-body">
                         <a href="#" class="btn btn-outline-primary">Agregar a pedido</a>
                     </div>
@@ -110,26 +125,17 @@
 
             <div class="col">
                 <div class="card" id="card" style="width: 18rem;">
-                    <img src="img/tostada-de-camarones.jpg" class="card-img-top" alt="...">
+                    <img src="../img/jugo-de-limon.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 style="text-align: center; font-weight: bold;" class="card-title">Tostadas De Camarones</h5>
-
+                        <h5 style="text-align: center; font-weight: bold;" class="card-title">Jugo De Limon</h5>
+                        <p style="text-align: center;" class="card-text">Jugo natural de limon, hecho con limones frescos y producidos en nuestros campos.</p>
                     </div>
-
-                    <div class="card-body">
-                        <a href="#" class="btn btn-outline-primary">Agregar a pedido</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card" id="card" style="width: 18rem;">
-                    <img src="img/tostada-de-cerdo.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 style="text-align: center; font-weight: bold;" class="card-title">Tostada De Cerdo</h5>
-
-                    </div>
-
+                    <ul class="list-group list-group-flush">
+                        <li style="text-align: center; font-weight: bold;" class="list-group-item">Ingredientes:</li>
+                        <li style="text-align: center;" class="list-group-item">Limon natural</li>
+                        <li style="text-align: center;" class="list-group-item">Azucar blanca</li>
+                        <li style="text-align: center;" class="list-group-item">Agua purificada</li>
+                    </ul>
                     <div class="card-body">
                         <a href="#" class="btn btn-outline-primary">Agregar a pedido</a>
                     </div>
@@ -138,12 +144,36 @@
 
             <div class="col">
                 <div class="card" id="card" style="width: 18rem;">
-                    <img src="img/tostada-de-huevo.jpg" class="card-img-top" alt="...">
+                    <img src="../img/jugo-de-melon.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 style="text-align: center; font-weight: bold;" class="card-title">Tostada De Huevo y Aguacate</h5>
-
+                        <h5 style="text-align: center; font-weight: bold;" class="card-title">Jugo De Melon</h5>
+                        <p style="text-align: center;" class="card-text">Jugo natural de melon, hecho con melones frescos y producidos en nuestros campos.</p>
                     </div>
+                    <ul class="list-group list-group-flush">
+                        <li style="text-align: center; font-weight: bold;" class="list-group-item">Ingredientes:</li>
+                        <li style="text-align: center;" class="list-group-item">Naranja natural</li>
+                        <li style="text-align: center;" class="list-group-item">Azucar blanca</li>
+                        <li style="text-align: center;" class="list-group-item">Agua purificada</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="btn btn-outline-primary">Agregar a pedido</a>
+                    </div>
+                </div>
+            </div>
 
+            <div class="col">
+                <div class="card" id="card" style="width: 18rem;">
+                    <img src="../img/jugo-de-chinola.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 style="text-align: center; font-weight: bold;" class="card-title">Jugo De Chinola</h5>
+                        <p style="text-align: center;" class="card-text">Jugo natural de chinola, hecho con chinolas frescas y producidos en nuestros campos.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li style="text-align: center; font-weight: bold;" class="list-group-item">Ingredientes:</li>
+                        <li style="text-align: center;" class="list-group-item">Chinola natural</li>
+                        <li style="text-align: center;" class="list-group-item">Azucar blanca</li>
+                        <li style="text-align: center;" class="list-group-item">Agua purificada</li>
+                    </ul>
                     <div class="card-body">
                         <a href="#" class="btn btn-outline-primary">Agregar a pedido</a>
                     </div>

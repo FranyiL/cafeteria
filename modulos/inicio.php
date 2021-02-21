@@ -5,16 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="icon" href="img/icono.png" type="image/png" />
+    <link rel="icon" href="../img/icono.png" type="image/png" />
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/font-awesome/css/font-awesome.min.css">
 
     <!-- Ionicons -->
-    <link rel="stylesheet" href="css/Ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="../css/Ionicons/css/ionicons.min.css">
 
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="../css/estilos.css">
 
 
     <title>Shairy Cafeteria</title>
@@ -26,7 +26,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 
-            <a class="navbar-brand" href="index.html">Bienvenidos A Shairy Cafeteria</a>
+            <a class="navbar-brand" href="inicio.php">Bienvenidos A Shairy Cafeteria</a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -35,7 +35,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="btn btn-outline-light" id="inicio" href="index.html"><i class="fa fa-home"></i><span class="sr-only">(current)</span></a>
+                        <a class="btn btn-outline-light" id="inicio" href="inicio.php"><i class="fa fa-home"></i><span class="sr-only">(current)</span></a>
                     </li>
 
                     <li class="nav-item active">
@@ -47,8 +47,8 @@
                     Menu Del Día
                   </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="jugos.html">Jugos</a>
-                            <a class="dropdown-item" href="tostadas.html">Tostadas</a>
+                            <a class="dropdown-item" href="jugos.php">Jugos</a>
+                            <a class="dropdown-item" href="tostadas.php">Tostadas</a>
                             <a class="dropdown-item" href="#">Pastelitos</a>
                             <a class="dropdown-item" href="#">Quipes</a>
                             <div class="dropdown-divider"></div>
@@ -64,7 +64,7 @@
         </nav>
     </header>
 
-    <img src="img/fondo.jpg" class="imagen">
+    <img src="../img/fondo.jpg" class="imagen">
 
 
 
